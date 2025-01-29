@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  background: conic-gradient(red,orange,yellow,green,pink);
+  height:80vh;
+  width:40vw;
+  margin-top: 10vh;
+  border-radius: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#par{
+  background-color: #09122C;
+  height:78.5vh;
+  width:39vw;
+  border-radius: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+label{
+  color: white;
+  font-size: 3vh;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#name{
+  margin-top: 2vh;
+  height:7vh;
+  width:20vw;
+  border-radius: 2vh;
+  inline-size: none;
+  
+  outline: none;
+  font-size: 4vh;
+}
+#email{
+  height:7vh;
+  width:20vw;
+  border-radius: 2vh;
+  inline-size: none;
+
+  outline: none;
+  font-size: 4vh;
+
+}
+#number{
+  height:7vh;
+  width:20vw;
+  border-radius: 2vh;
+  inline-size: none;
+
+  outline: none;
+  font-size: 4vh;
+
+}
+.no{
+  border:0.5vh solid red
+}
+button{
+  height:7vh;
+  width:15vw;
+  border-radius: 2vh;
+  font-size: 5vh;
+  font-family:monospace;
+  font-weight: bolder;
+  background-color: white;
+
+}
+button:hover{
+  cursor: pointer;
+  background-color: wheat;
+}
+h2{
+  position: fixed;
+  left:2vw;
+  top:3vh
+}
