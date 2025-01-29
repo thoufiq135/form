@@ -13,7 +13,7 @@ function Form(){
      if(email&&name&&number){
         setwarning(false)
         console.log(`name=${name} email=${email} number${number}`)
-        const response =await fetch('http://localhost:7000/add',{
+        const response =await fetch('https://formserver.vercel.app/add',{
             method:'POST',
             body:JSON.stringify({
                 name,
@@ -28,7 +28,7 @@ function Form(){
             console.log(data)
             setfinal(data)
         }else{setfinal("Registered")}})).catch((e)=>{
-            setfinal("registered")
+            setfinal("Registered")
         } )     
      }else{
         setwarning(true)
