@@ -88,8 +88,25 @@ button:hover{
   cursor: pointer;
   background-color: wheat;
 }
-h2{
+#already{
   position: fixed;
   left:2vw;
   top:3vh
+}
+#data{
+  height:50vh;
+  width:40vw;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap:5vh;
+  font-size: 5vh;
+  margin-top: 10vh;
+  border-radius: 2vh;
+}
+#sel{
+  padding-right: 45vw;
+  font-size: 7vh;
 }
